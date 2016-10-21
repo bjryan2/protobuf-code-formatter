@@ -30,11 +30,11 @@ Installation
 
 To install the stand-alone tool, run the following command in the terminal:
 
-` $ go get github.com/DirkBrand/protobuf-code-formatter/protofmt`
+` $ go get github.com/bjryan2/protobuf-code-formatter/protofmt`
 
 To install the plugin for protoc, run the following command in the terminal:
 
-`$ go get github.com/DirkBrand/protobuf-code-formatter/protoc-gen-pretty`
+`$ go get github.com/bjryan2/protobuf-code-formatter/protoc-gen-pretty`
 
 
 Limitations
@@ -48,4 +48,4 @@ Limitations
 4. When using the protoc plugin, any comments not directly adjacent to a line of code (dangling comments), are not preserved.  Comments must be directly above or below a line of code (without newlines).  Such comments are preserved when using the protofmt tool.
 
 
-[![Build Status](https://drone.io/github.com/DirkBrand/protobuf-code-formatter/status.png)](https://drone.io/github.com/DirkBrand/protobuf-code-formatter/latest)
+[![Build Status](https://drone.io/github.com/bjryan2/protobuf-code-formatter/status.png)](https://drone.io/github.com/bjryan2/protobuf-code-formatter/latest)

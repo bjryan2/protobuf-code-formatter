@@ -29,10 +29,11 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	parser "github.com/DirkBrand/protobuf-code-formatter/protoc-gen-pretty/parser"
 	"os"
 	"path/filepath"
 	"strings"
+
+	parser "github.com/bjryan2/protobuf-code-formatter/protoc-gen-pretty/parser"
 )
 
 var recurs *bool
